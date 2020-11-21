@@ -9,10 +9,7 @@ standalone: true
 pdf-engine: xelatex
 data-dir: # A reference.odt, reference.docx, epub.css, templates, slidy, slideous, or s5 directory placed in this directory will override pandoc’s normal defaults.
 abbreviations: # Specifies a custom abbreviations file, with abbreviations one to a line.
-top-level-division: chapter # part, chapter, section, or default:
-cite-method: citeproc # citeproc, natbib, or biblatex
-reference-location: block # block, section, or document
-highlight-style: pygments
+top-level-division: chapter # default | section | chapter | part
 
 # log 
 verbosity: WARNING # ERROR, WARNING, or INFO

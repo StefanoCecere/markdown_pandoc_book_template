@@ -33,6 +33,21 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.  
 Strikethrough uses two tildes. ~~Scratch this.~~  
 
+## Links
+
+### External links
+[www.google.com](https://www.google.com)  
+[www.google.com with title](https://www.google.com "Google's Homepage")  
+
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
+example.com (but not on Github, for example).
+
+### Internal links
+This links to the [Introduction](#introduction)  
+This links to [The End](#the-end)  
+This links to [Chapter 2.2 via manual Anchor](#chap22_anchor)  
+
 ## Lists
 
 1. First ordered list item
@@ -57,22 +72,6 @@ Note that this line is separate, but within the same paragraph.
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)  
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE.md)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
 
 ## Images
 

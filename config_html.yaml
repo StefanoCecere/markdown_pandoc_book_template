@@ -8,7 +8,8 @@ to: html
 standalone: true
 data-dir: # A reference.odt, reference.docx, epub.css, templates, slidy, slideous, or s5 directory placed in this directory will override pandoc’s normal defaults.
 abbreviations: # Specifies a custom abbreviations file, with abbreviations one to a line.
-top-level-division: chapter # part, chapter, section, or default:
+top-level-division: chapter # default | section | chapter | part
+self-contained: true
 
 # log 
 verbosity: WARNING # ERROR, WARNING, or INFO
