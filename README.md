@@ -10,6 +10,7 @@ and editors book exporters (Ulysses, Scrivener, Zettlr, iA Writer, Marked 2...) 
 pandoc -d config_pdf.yaml manuscript/*.md
 pandoc -d config_epub.yaml manuscript/*.md
 pandoc -d config_docx.yaml manuscript/*.md
+pandoc -d config_html.yaml manuscript/*.md
 ```
 
 ## thanks

@@ -1,0 +1,22 @@
+# docs https://pandoc.org/MANUAL.html#default-files
+input-files:
+output-file: output/manuscript.epub
+resource-path: ["manuscript"]
+from: markdown
+file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
+to: epub
+standalone: true
+data-dir: # A reference.odt, reference.docx, epub.css, templates, slidy, slideous, or s5 directory placed in this directory will override pandoc’s normal defaults.
+abbreviations: # Specifies a custom abbreviations file, with abbreviations one to a line.
+highlight-style: pygments
+#epub-subdirectory: EPUB
+#epub-metadata: meta.xml
+#epub-fonts:
+#- foobar.otf
+epub-chapter-level: 1
+epub-cover-image: "manuscript/img/cover.jpg"
+css: ["assets/styles/epub_style.css"]
+
+# log 
+verbosity: WARNING # ERROR, WARNING, or INFO
+#log-file: log.json
