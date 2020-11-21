@@ -13,6 +13,18 @@ pandoc -d config_docx.yaml manuscript/*.md
 pandoc -d config_html.yaml manuscript/*.md
 ```
 
+## Requirements
+
+- Pandoc: see [Installing Pandoc](https://pandoc.org/installing.html).
+- Install a LaTeX distribuition.
+under mac i could work with the smaller [BasicTeX](https://www.tug.org/mactex/morepackages.html)
+
+i installed both with:
+```
+brew install pandoc
+brew install homebrew/cask/basictex
+```
+
 ## How To
 
 the book is in the `manuscript/` directory as a group of markdown files.

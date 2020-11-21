@@ -1,8 +1,10 @@
+---
+tags: [published]
+---
 # Introduction
 
 Welcome to this template to generate a book via Markdown and Pandoc.
 
----
 
 # Write Markdown
 
@@ -37,20 +39,20 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 2. Another item
 3. Another item
 4. Another item
-  - Unordered sub-list.
-  - Unordered sub-list.
-  - Unordered sub-list.
+   - Unordered sub-list.
+   - Unordered sub-list.
+   - Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-  1. Ordered sub-list
-  1. Ordered sub-list
+   1. Ordered sub-list
+   1. Ordered sub-list
+   1. Ordered sub-list
 4. the last item.
 
    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-  To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+To have a line break without a paragraph, you will need to use two trailing spaces.  
+Note that this line is separate, but within the same paragraph.  
+(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use asterisks
 - Or minuses
@@ -76,11 +78,16 @@ example.com (but not on Github, for example).
 
 Save your image (jpg or png format only) to `img/` and insert it like this:
 
-![Figure caption text](img/image.jpg "Image Title Text 1")
+![Figure 1 caption text](img/image.jpg "Image Title Text 1")
+
+we can have many images.. here is another one:
+
+![Figure 2 caption text](img/image.jpg "Image Title Text 2")
 
 ## Tables
 
-Colons can be used to align columns.
+We can have nice tables.  
+Colons can be used to align columns.  
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
