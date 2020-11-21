@@ -1,7 +1,7 @@
 # docs https://pandoc.org/MANUAL.html#default-files
 input-files:
 output-file: output/manuscript.docx
-resource-path: ["manuscript"]
+resource-path: ["manuscript"] # needed for images linked in .md
 from: markdown
 file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
 to: docx
