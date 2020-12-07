@@ -1,0 +1,28 @@
+# docs https://pandoc.org/MANUAL.html#default-files
+input-files: 
+output-file: output/manuscript_advanced.pdf
+resource-path: ["manuscript_advanced"] # needed for images linked in .md
+from: markdown+yaml_metadata_block+implicit_figures+table_captions+footnotes+smart
+file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
+to: pdf
+standalone: true
+pdf-engine: xelatex
+#pdf-engine: wkhtmltopdf
+data-dir: pandoc # A reference.odt, reference.docx, epub.css, templates, slidy, slideous, or s5 directory placed in this directory will override pandoc’s normal defaults.
+abbreviations: # Specifies a custom abbreviations file, with abbreviations one to a line.
+top-level-division: chapter # default | section | chapter | part
+
+# template: eisvogel.latex
+dpi: 300
+toc: true
+listings: true
+columns: 50
+#number-section: true
+
+
+#pagenumbering: 
+# log 
+# verbosity: WARNING # ERROR, WARNING, or INFO
+#log-file: log.json
+
+# include-before-body: cover.tex
