@@ -3,7 +3,7 @@
 this template is to create a book in PDF/ePub/html/Docx format from a group of markdown files.
 
 i needed this because i wanted to use Pandoc to have total configuration freedom
-and editors book exporters (Ulysses, Scrivener, Zettlr, iA Writer, Marked 2...) were limited, and my preferred one (Obsidian.md) doesn't export... yet
+and editors book exporters (Ulysses, Scrivener, Zettlr, iA Writer, Marked 2...) were limited, and my preferred one [Obsidian.md](https://obsidian.md/) doesn't export... yet
 
 ## Syntax
 ```
@@ -24,6 +24,8 @@ i installed both with:
 brew install pandoc
 brew install homebrew/cask/basictex
 ```
+
+Update: i've moved to the much bigger but really complete [MacTeX-2020 Distribution](https://www.tug.org/mactex/)
 
 ## How To
 
