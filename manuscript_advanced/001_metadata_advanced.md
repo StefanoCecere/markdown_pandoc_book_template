@@ -74,6 +74,9 @@ onehalfspacing: true
 #  - \titleformat*{\subsection}{\fontsize{13}{15}\filcenter\selectfont}
 
 header-includes:
+#  - \usepackage(coloremoji)
+  - \usepackage{wasysym}
+  - \usepackage{tikz}
 #  - \setcounter{tocdepth}{1}
 #  - \tableofcontents
   

@@ -1,5 +1,47 @@
 # TEST Markdown
 
+## Diagram
+
+\setlength{\unitlength}{1mm}
+\thicklines
+\begin{picture}(10,6)
+\put(2,2.2){\line(1,0){6}}
+\put(2,2.2){\circle{2}}
+\put(6,2.2){\oval(4,2)[r]}
+\end{picture}
+
+## tiz figure usepackage{tikz}
+
+\begin{tikzpicture}
+
+\draw (-2,0) -- (2,0);
+\filldraw [gray] (0,0) circle (2pt);
+\draw (-2,-2) .. controls (0,0) .. (2,-2);
+\draw (-2,2) .. controls (-1,0) and (1,0) .. (2,2);
+
+\end{tikzpicture}
+
+---
+
+\begin{tikzpicture}
+\filldraw[color=red!60, fill=red!5, very thick](-1,0) circle (1.5);
+\fill[blue!50] (2.5,0) ellipse (1.5 and 0.5);
+\draw[ultra thick, ->] (6.5,0) arc (0:220:1);
+\end{tikzpicture}
+
+## Emojis
+🤣 :heart_eyes:
+
+[❤️](#gdt_carcassonnejr)
+
+[🤣](https://stefanocecere.com) 
+
+\Psi \Omega 
+
+usepackage{wasysym}: \smiley{} \frownie{} \blacksmiley{}
+
+
+
 ## Boxes
 
 > questo è un block quote generico
@@ -43,12 +85,6 @@ document.
 \End{multicols}
 
 
-## Emojis
-🤣 :heart_eyes:
-
-[❤️](#gdt_carcassonnejr)
-
-[🤣](https://stefanocecere.com) 
 
 ## Text Color
 
