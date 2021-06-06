@@ -17,7 +17,6 @@ identifier:
 
 mainfont: Arial
 sansfont: Arial
-# mainfont: DejaVuSerif.ttf
 # #mainfont: ProximaNova-Reg.ttf
 # sansfont: DejaVuSans.ttf
 # monofont: DejaVuSansMono.ttf 
@@ -74,9 +73,21 @@ onehalfspacing: true
 #  - \titleformat*{\subsection}{\fontsize{13}{15}\filcenter\selectfont}
 
 header-includes:
-#  - \usepackage(coloremoji)
-  - \usepackage{wasysym}
-  - \usepackage{tikz}
+  - \newcommand{\icoBody}{\raisebox{-.4ex}{\protect\includegraphics[height=2ex]{manuscript_advanced/img/_emoji/body.png}}}
+
+#  - \usepackage{newunicodechar}
+#  - \newunicodechar{😎}{\includegraphics[height=2ex]{manuscript_advanced/img/_emoji/body.png}}
+
+#  - \usepackage{twemoji-colr}
+#  - \usepackage{coloremoji}
+## Emojis
+#  - \newcommand{\water}{H$_2$O}
+
+#  - \usepackage{noto-emoji}
+#  -  \usepackage{coloremoji}
+#  - \usepackage{twemoji-colr}
+#  - \usepackage{wasysym}
+#  - \usepackage{tikz}
 #  - \setcounter{tocdepth}{1}
 #  - \tableofcontents
   
